@@ -1,0 +1,19 @@
+.membership-card {
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+  background: #e1e1e1;
+  margin-bottom: 15px;
+
+  &:hover {
+    transform: translate(3px, -3px);
+    transition: 0.5s;
+  }
+
+  .membership-type {
+    color: black;
+    font-weight: bold;
+  }
+}

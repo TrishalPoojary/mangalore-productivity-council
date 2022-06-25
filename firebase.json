@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/mangalore-productivity-council",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

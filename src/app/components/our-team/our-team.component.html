@@ -1,0 +1,17 @@
+<mat-card class="card">
+    <div class="header-image">
+        <img src="assets/images/user.jpg" alt="memebr profile">
+    </div>
+    <mat-card-header class="our-team">
+        <mat-card-title [innerHtml]="member?.name" class="title"></mat-card-title>
+        <mat-card-subtitle>
+            <p [innerHtml]="member?.designation" class="designation"></p>
+            <p class="mobile-no">Ph: {{member?.mobileNo}}</p>
+            <p class="email">E-mail: {{member?.email? member?.email : '-'}}</p>
+        </mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content *ngIf="member?.description">
+        <p [innerHtml]="member?.description"></p>
+    </mat-card-content>
+</mat-card>

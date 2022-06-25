@@ -1,0 +1,54 @@
+.our-team-txt {
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.about-us-txt {
+  margin-bottom: 15px;
+}
+
+.our-offerings-header {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.membership-header {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.header-sub-txt {
+  margin-bottom: 25px;
+}
+
+.alert-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 95vw;
+  max-width: 500px;
+  z-index: 100;
+
+  .alert-txt {
+    text-align: center;
+  }
+
+  button {
+    font-size: 25px;
+    border: none;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.6);
+}

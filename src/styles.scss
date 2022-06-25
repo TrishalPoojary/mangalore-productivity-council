@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "theme/variables.scss";
+
+:root {
+  body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.header-margin {
+  margin-top: 80px;
+}
+
+.content {
+  margin-bottom: 30px;
+}
+
+.our-team .mat-card-header-text {
+  width: 100%;
+  text-align: center;
+}
+
+.mt-20px {
+  margin-top: 20px;
+}
+
+.hide-web {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.hide-mobile {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
